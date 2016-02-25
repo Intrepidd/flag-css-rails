@@ -30,30 +30,30 @@
   background-repeat: no-repeat;
   position: relative;
   display: inline-block;
-  width: @flag-width;
-  line-height: @flag-line-height;
+  width: $flag-width;
+  line-height: $flag-line-height;
 }
 .flag:before {
   content: "\00a0";
 }
 
-.flag-x(@size) {
-  .flag-@{size}x {
-    width: (@flag-width * @size);
-    line-height: (@flag-line-height * @size);
+@mixin flag-x($size){
+  .flag-#{$size}x {
+    width: ($flag-width * $size);
+    line-height: ($flag-line-height * $size);
   }
 }
 
-.flag-x(1);
-.flag-x(2);
-.flag-x(3);
-.flag-x(4);
-.flag-x(5);
-.flag-x(6);
-.flag-x(7);
-.flag-x(8);
-.flag-x(9);
-.flag-x(10);
+@include flag-x(1);
+@include flag-x(2);
+@include flag-x(3);
+@include flag-x(4);
+@include flag-x(5);
+@include flag-x(6);
+@include flag-x(7);
+@include flag-x(8);
+@include flag-x(9);
+@include flag-x(10);
 
 .flag-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);

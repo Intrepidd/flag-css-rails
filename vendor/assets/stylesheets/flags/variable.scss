@@ -19,10 +19,10 @@
  * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
  * OR OTHER DEALINGS IN THE SOFTWARE.
  */
+/* using in flag-core.scss */
+$flag-width: 1.333333333333em !default;
+$flag-line-height: 1em !default;
 
-@flag-width: 1.333333333333em;
-@flag-line-height: 1em;
-
-
-@flag-css-path: 'flags';
-@flag-css-png-path: 'flags/png';
+/* using in flag-list */
+$flag-css-path: 'flags' !default;
+$flag-css-png-path: 'flags/png' !default;
