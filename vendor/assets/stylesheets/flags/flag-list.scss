@@ -113,6 +113,7 @@
 @include flag(dza, dz, 12, alg, alg);
 @include flag(ecu, ec, 218, ecu, ecu);
 @include flag(egy, eg, 818, egy, egy);
+@include flag(eh, eh, 0, eh, eh);
 @include flag(eri, er, 232, eri, eri);
 @include flag(esp, es, 724, esp, esp);
 @include flag(est, ee, 233, est, est);
@@ -290,10 +291,14 @@
 @include flag(vut, vu, 548, van, van);
 @include flag(wlf, wf, 876, waf, wlf);
 @include flag(wsm, ws, 882, sam, sam);
+@include flag(xs, xs, 0, xs, xs);
+@include flag(xw, xw, 0, xw, xw);
+@include flag(xi, xi, 0, xi, xi);
 @include flag(yem, ye, 887, yem, yem);
 @include flag(zaf, za, 710, rsa, rsa);
 @include flag(zmb, zm, 894, zam, zam);
 @include flag(zwe, zw, 716, zim, zim);
+
 
 // Exceptions
 .flag-fifa-eng {
